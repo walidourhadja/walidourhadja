@@ -1,26 +1,69 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BLACK SWORDSMAN | Market Watchlist</title>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BLACK SWORDSMAN | Market Watchlist</title>
 <style>
-:root{color-scheme:dark;--bg:#09090c;--line:#30202a;--muted:#918a94;--green:#43c98b}
+:root{color-scheme:dark;--bg:#09090c;--line:#30202a;--muted:#918a94;--green:#43c98b;--red:#f06475}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 82% 0%,#32101b 0,transparent 40%),var(--bg);color:#f5f0f1;font:14px Inter,system-ui,Arial}
-main{max-width:900px;margin:auto;padding:28px 22px}header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:1px solid var(--line);padding-bottom:18px}
-.eyebrow{color:#df6378;letter-spacing:3px;font-size:10px;font-weight:800}h1{font-size:25px;letter-spacing:1px;margin:7px 0}.sub{color:var(--muted);font-size:12px}.live{color:var(--green);font-size:11px;white-space:nowrap}
+main{max-width:900px;margin:auto;padding:28px 22px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;border-bottom:1px solid var(--line);padding-bottom:18px}
+.eyebrow{color:#df6378;letter-spacing:3px;font-size:10px;font-weight:800}h1{font-size:25px;letter-spacing:1px;margin:7px 0}.sub{color:var(--muted);font-size:12px}
+.status{color:var(--muted);font-size:10px;white-space:nowrap}.status:before{content:"●";color:var(--green);margin-right:7px}
 .list{margin-top:18px;border:1px solid var(--line);border-radius:13px;overflow:hidden;background:rgba(18,17,22,.92)}
-.market-row{min-height:76px;padding:13px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #28232b}.market-row:last-child{border-bottom:0}
+.market-row{min-height:72px;padding:13px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #28232b}.market-row:last-child{border-bottom:0}
 .identity{min-width:0}.name{font-size:14px;font-weight:700;letter-spacing:.2px}.symbol{font-size:10px;color:var(--muted);margin-top:4px;letter-spacing:.5px}
-.quote{width:270px;min-width:220px;display:flex;justify-content:flex-end;align-items:center}.tradingview-widget-container{width:100%;min-height:40px}.tradingview-widget-container__widget{width:100%}
-.foot{color:#827b85;font-size:10px;line-height:1.6;margin:14px 2px}
-@media(max-width:560px){main{padding:18px 12px}header{align-items:flex-start;flex-direction:column}h1{font-size:21px}.market-row{padding:12px;gap:8px}.quote{width:54%;min-width:0}.name{font-size:12px}.symbol{font-size:9px}}
-</style></head><body><main>
-<header><div><div class="eyebrow">THE BLACK SWORDSMAN · MARKET INTELLIGENCE</div><h1>MARKET WATCHLIST</h1><div class="sub">Companies, indices & commodities · Live price and daily change</div></div><div class="live">● LIVE MARKET FEED</div></header>
-<section class="list" aria-label="Market watchlist">
-<article class="market-row"><div class="identity"><div class="name">NVIDIA</div><div class="symbol">NASDAQ:NVDA</div></div><div class="quote"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol":"NASDAQ:NVDA","width":"100%","colorTheme":"dark","isTransparent":true,"locale":"en"}</script></div></div></article>
-<article class="market-row"><div class="identity"><div class="name">NASDAQ 100</div><div class="symbol">NASDAQ:NDX</div></div><div class="quote"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol":"NASDAQ:NDX","width":"100%","colorTheme":"dark","isTransparent":true,"locale":"en"}</script></div></div></article>
-<article class="market-row"><div class="identity"><div class="name">NASDAQ FUTURES</div><div class="symbol">CME_MINI:NQ1!</div></div><div class="quote"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol":"CME_MINI:NQ1!","width":"100%","colorTheme":"dark","isTransparent":true,"locale":"en"}</script></div></div></article>
-<article class="market-row"><div class="identity"><div class="name">S&P 500</div><div class="symbol">SP:SPX</div></div><div class="quote"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol":"SP:SPX","width":"100%","colorTheme":"dark","isTransparent":true,"locale":"en"}</script></div></div></article>
-<article class="market-row"><div class="identity"><div class="name">S&P 500 FUTURES</div><div class="symbol">CME_MINI:ES1!</div></div><div class="quote"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol":"CME_MINI:ES1!","width":"100%","colorTheme":"dark","isTransparent":true,"locale":"en"}</script></div></div></article>
-<article class="market-row"><div class="identity"><div class="name">GOLD · XAU/USD</div><div class="symbol">OANDA:XAUUSD</div></div><div class="quote"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol":"OANDA:XAUUSD","width":"100%","colorTheme":"dark","isTransparent":true,"locale":"en"}</script></div></div></article>
-<article class="market-row"><div class="identity"><div class="name">CRUDE OIL · WTI</div><div class="symbol">TVC:USOIL</div></div><div class="quote"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol":"TVC:USOIL","width":"100%","colorTheme":"dark","isTransparent":true,"locale":"en"}</script></div></div></article>
+.quote{text-align:right;min-width:150px}.price{font-size:16px;font-weight:700;font-variant-numeric:tabular-nums}.change{font-size:11px;margin-top:4px;font-weight:650;font-variant-numeric:tabular-nums}.positive{color:var(--green)}.negative{color:var(--red)}.neutral{color:var(--muted)}
+.foot{color:#827b85;font-size:10px;line-height:1.6;margin:14px 2px}.error{color:#e9a0a8}
+@media(max-width:560px){main{padding:18px 12px}header{align-items:flex-start;flex-direction:column}h1{font-size:21px}.market-row{padding:12px;gap:8px}.name{font-size:12px}.symbol{font-size:9px}.quote{min-width:125px}.price{font-size:14px}}
+</style>
+</head>
+<body><main>
+<header><div><div class="eyebrow">THE BLACK SWORDSMAN · MARKET INTELLIGENCE</div><h1>MARKET WATCHLIST</h1><div class="sub">Stocks, indices, futures & commodities · Daily performance</div></div><div class="status" id="status">CONNECTING TO MARKET DATA</div></header>
+<section class="list" aria-label="Market watchlist" id="watchlist">
+<div class="market-row" data-symbol="NVDA"><div class="identity"><div class="name">NVIDIA</div><div class="symbol">NASDAQ · NVDA</div></div><div class="quote"><div class="price">Loading…</div><div class="change neutral">—</div></div></div>
+<div class="market-row" data-symbol="%5ENDX"><div class="identity"><div class="name">NASDAQ 100</div><div class="symbol">INDEX · NDX</div></div><div class="quote"><div class="price">Loading…</div><div class="change neutral">—</div></div></div>
+<div class="market-row" data-symbol="NQ%3DF"><div class="identity"><div class="name">NASDAQ FUTURES</div><div class="symbol">CME · NQ</div></div><div class="quote"><div class="price">Loading…</div><div class="change neutral">—</div></div></div>
+<div class="market-row" data-symbol="%5EGSPC"><div class="identity"><div class="name">S&P 500</div><div class="symbol">INDEX · SPX</div></div><div class="quote"><div class="price">Loading…</div><div class="change neutral">—</div></div></div>
+<div class="market-row" data-symbol="ES%3DF"><div class="identity"><div class="name">S&P 500 FUTURES</div><div class="symbol">CME · ES</div></div><div class="quote"><div class="price">Loading…</div><div class="change neutral">—</div></div></div>
+<div class="market-row" data-symbol="XAUUSD%3DX"><div class="identity"><div class="name">GOLD · XAU/USD</div><div class="symbol">SPOT · XAUUSD</div></div><div class="quote"><div class="price">Loading…</div><div class="change neutral">—</div></div></div>
+<div class="market-row" data-symbol="CL%3DF"><div class="identity"><div class="name">CRUDE OIL · WTI</div><div class="symbol">NYMEX · CL</div></div><div class="quote"><div class="price">Loading…</div><div class="change neutral">—</div></div></div>
 </section>
-<div class="foot">Quotes are supplied by TradingView. Daily percentage change is shown beside the latest available price. Real-time availability and delays depend on exchange permissions and data subscriptions.</div>
-</main></body></html>
+<div class="foot">Data source: Yahoo Finance chart data via a public CORS relay. This is an unofficial, non-guaranteed feed; quotes may be delayed, unavailable or subject to provider limits. Auto-refreshes every 60 seconds. Not for execution or financial decisions.</div>
+</main>
+<script>
+const PROXY="https://proxy.cors.dev/";
+const rows=[...document.querySelectorAll(".market-row")];
+const statusEl=document.getElementById("status");
+const fmt=(n)=>new Intl.NumberFormat("en-US",{maximumFractionDigits:n>=1000?2: n>=100?2: n>=10?3:4}).format(n);
+async function loadQuote(row){
+ const symbol=decodeURIComponent(row.dataset.symbol);
+ const url="https://query1.finance.yahoo.com/v8/finance/chart/"+encodeURIComponent(symbol)+"?range=1d&interval=1m";
+ const response=await fetch(PROXY+url,{cache:"no-store"});
+ if(!response.ok) throw new Error("HTTP "+response.status);
+ const json=await response.json();
+ const meta=json?.chart?.result?.[0]?.meta;
+ if(!meta||typeof meta.regularMarketPrice!=="number") throw new Error("No quote");
+ const price=meta.regularMarketPrice;
+ const previous=meta.chartPreviousClose??meta.previousClose;
+ if(typeof previous!=="number"||!previous) throw new Error("No previous close");
+ const change=price-previous;
+ const pct=change/previous*100;
+ const currency=meta.currency||"";
+ const priceEl=row.querySelector(".price"),changeEl=row.querySelector(".change");
+ priceEl.textContent=(currency==="USD"?"$":"")+fmt(price);
+ changeEl.textContent=(change>=0?"+":"")+fmt(change)+" ("+(pct>=0?"+":"")+pct.toFixed(2)+"%)";
+ changeEl.className="change "+(change>0?"positive":change<0?"negative":"neutral");
+ row.title="Last market update: "+new Date((meta.regularMarketTime||Date.now()/1000)*1000).toLocaleString();
+}
+async function refresh(){
+ statusEl.textContent="UPDATING QUOTES";
+ const results=await Promise.allSettled(rows.map(loadQuote));
+ const good=results.filter(x=>x.status==="fulfilled").length;
+ results.forEach((result,i)=>{if(result.status==="rejected"){const q=rows[i].querySelector(".quote");q.querySelector(".price").textContent="Unavailable";q.querySelector(".change").textContent="Feed error";q.querySelector(".change").className="change error";}});
+ const time=new Date().toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"});
+ statusEl.textContent=good===rows.length?"MARKET FEED · UPDATED "+time:good+" / "+rows.length+" QUOTES · "+time;
+}
+refresh();setInterval(refresh,60000);
+</script>
+</body></html>
